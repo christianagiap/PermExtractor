@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view3"
+    style="@style/myCardView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:id="@+id/layoutApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:background="@drawable/border2"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:orientation="vertical"
+        android:paddingLeft="16dip"
+        android:paddingRight="16dip" >
+
+        <ImageView
+            android:id="@+id/imgApp"
+            android:layout_width="347dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10sp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="383dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="Package Name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/txtApp"
+            android:layout_width="383dp"
+            android:layout_height="38dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorBlack" />
+    </LinearLayout>
+
+</LinearLayout>
